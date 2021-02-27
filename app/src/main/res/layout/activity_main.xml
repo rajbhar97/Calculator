@@ -8,15 +8,17 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/calculation"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="10"
         android:background="@color/black"
         android:gravity="right|bottom"
         android:textColor="@color/white"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/tvDisplay"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="15"
@@ -44,7 +46,7 @@
             android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/square"
+            android:id="@+id/sqrt"
             android:onClick="operatorOnClick"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -56,7 +58,7 @@
             android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/modulus"
+            android:id="@+id/power"
             android:onClick="operatorOnClick"
             android:layout_width="0dp"
             android:layout_height="match_parent"
